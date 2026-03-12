@@ -14,7 +14,6 @@ import { AuthService } from './auth.service.js';
 import { JwtAuthGuard } from '../common/gurds/jwt-auth.guard.js';
 import { RegisterDto } from './dto/register.dto.js';
 import { LoginDto } from './dto/login.dto.js';
-import { Verify2FADto } from './dto/verify-2fa.dto.js';
 
 @Controller('auth')
 export class AuthController {
