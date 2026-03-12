@@ -23,7 +23,17 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a complete login and registration system with authenticator (TOTP / 2FA) built using NestJS.
+
+Users can register with email and password.
+
+Registration includes MFA setup with Google/Microsoft Authenticator.
+
+Login supports TOTP verification with temporary tokens and brute-force protection.
+
+Includes 3-attempt lockout, 5-minute token expiration, and secure JWT access & refresh tokens.
+
+Developed by Dinuka Bandara.
 
 ## Project setup
 
